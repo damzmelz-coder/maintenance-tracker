@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+header {
+  text-align: center;
+}
+#dashboard {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
